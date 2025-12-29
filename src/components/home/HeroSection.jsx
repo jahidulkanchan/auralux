@@ -1,6 +1,6 @@
 import React from "react";
 import LightEffect from "../../assets/videos/run-light-effect.mp4"
-import HeroBanner from "../../assets/images/hero-banner.png";
+import HeroBanner from "../../assets/images/hero-banner.webp";
 
 export default function HeroSection() {
   return (
