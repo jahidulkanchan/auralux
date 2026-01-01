@@ -7,10 +7,10 @@ export default function FunFacts() {
     <>
       <section className="bg-white-bg min-h-screen">
         <div className="container px-3 py-10 md:px-5">
-          <div className="section-badge border-light-orange mx-auto w-fit border px-5 py-2 text-sm uppercase">
+          <div className="section-badge">
             Fun Facts
           </div>
-          <h2 className="mx-auto my-4 max-w-3xl text-center text-3xl font-semibold md:text-4xl xl:text-5xl">
+          <h2 className="section-title">
             BEING BETTER INFORMED MEANS MAKING A GOOD AND BETTER DECISIONS
           </h2>
           <br />
