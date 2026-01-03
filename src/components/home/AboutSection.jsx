@@ -7,7 +7,7 @@ export default function AboutSection() {
   return (
     <>
       <section className="bg-white-bg">
-        <div className="container flex items-center justify-between gap-12 px-3 py-10 md:gap-8 md:px-5 md:py-16">
+        <div className="container flex flex-col items-center justify-between gap-12 px-3 py-10 md:flex-row md:gap-8 md:px-5 md:py-16">
           <div className="left-content max-w-[650px]">
             <div className="section-badge mx-0">About HairCraft</div>
             <h2 className="section-title mx-0 max-w-lg text-left">
@@ -20,25 +20,33 @@ export default function AboutSection() {
           <div className="right-content min-h-[200px] w-full max-w-[650px]">
             <img src={ChooseUs} alt="About Us" />
             <br />
-            <div className="content bg-white p-5 py-8 h-full">
-              <h2 className="text-2xl font-semibold">Why Choose Us?</h2><br />
+            <div className="content h-full min-h-[400px] bg-white p-5 py-8 lg:min-h-[300px] xl:min-h-[400px]">
+              <h2 className="text-2xl font-semibold">Why Choose Us?</h2>
+              <br />
               <p>
                 From classic cuts to modern styles, we craft looks that suit
                 your personality and lifestyle.
               </p>
               <br />
-              <div className="check-item space-y-2.5 flex items-center gap-2.5">
-                <MdCheckBox size={35} className="text-light-orange" />{" "}
-                <span>Skilled & certified professionals</span>
+              <div className="check-item flex gap-2.5 space-y-2.5 italic">
+                <MdCheckBox size={30} className="text-light-orange" />{" "}
+                <span className="text-lg">
+                  Skilled & certified professionals
+                </span>
               </div>
-              <div className="check-item space-y-2.5 flex items-center gap-2.5">
-                <MdCheckBox size={35} className="text-light-orange" />{" "}
-                <span>Skilled & certified professionals</span>
+              <div className="check-item flex gap-2.5 space-y-2.5 italic">
+                <MdCheckBox size={30} className="text-light-orange" />{" "}
+                <span className="text-lg">
+                  Clean, relaxing, and welcoming environment
+                </span>
               </div>
-              <div className="check-item space-y-2.5 flex items-center gap-2.5">
-                <MdCheckBox size={35} className="text-light-orange" />{" "}
-                <span>Skilled & certified professionals</span>
-              </div>
+              <div className="check-item flex gap-2.5 space-y-2.5 italic">
+                <MdCheckBox size={30} className="text-light-orange" />{" "}
+                <span className="text-lg">
+                  Personalized grooming consultations
+                </span>
+              </div><br />
+              <div className="section-badge px-16 w-full text-center py-3 mx-auto">OUR EXPERTISE</div>
             </div>
           </div>
         </div>
