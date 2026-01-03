@@ -19,14 +19,14 @@ export default function FunFacts() {
             <div className="item order-1 lg:col-span-7 w-full">
                 <img src={FunFact01} className="w-full object-cover" alt="Funfact image" />
             </div>
-            <div className="item order-2 flex justify-between flex-col lg:col-span-5 min-h-[300px] w-full bg-white">
+            <div className="item order-2 flex p-5 justify-between flex-col lg:col-span-5 min-h-[300px] w-full bg-white">
               <h2 className="text-3xl">CLEAN, RELAXING, AND WELCOMING ENVIRONMENT</h2>
               <div>
                 <p className="text-5xl font-bold">1200+</p>
               <span>Serving daily haircut</span>
               </div>
             </div>
-            <div className="item order-4 lg:order-3 flex justify-between flex-col lg:col-span-5 min-h-[300px] w-full bg-light-orange">
+            <div className="item order-4 lg:order-3 flex p-5 justify-between flex-col lg:col-span-5 min-h-[300px] w-full bg-light-orange">
               <h2 className="text-3xl">CLEAN, RELAXING, AND WELCOMING ENVIRONMENT</h2>
               <div>
                 <p className="text-5xl font-bold">1200+</p>
