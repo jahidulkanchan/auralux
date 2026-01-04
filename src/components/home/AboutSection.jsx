@@ -7,8 +7,8 @@ export default function AboutSection() {
   return (
     <>
       <section className="bg-white-bg">
-        <div className="container flex flex-col items-center justify-between gap-12 px-3 py-10 md:flex-row md:gap-8 md:px-5 md:py-16">
-          <div className="left-content max-w-[650px]">
+        <div className="container flex flex-col justify-between gap-12 px-3 py-10 md:flex-row md:gap-8 md:px-5 md:py-16">
+          <div className="left-content max-w-[750px]">
             <div className="section-badge mx-0">About HairCraft</div>
             <h2 className="section-title mx-0 max-w-lg text-left">
               Your Trusted Salon & Barber shop.
@@ -17,16 +17,16 @@ export default function AboutSection() {
             <img src={AboutUs} alt="About Us" />
             <br />
           </div>
-          <div className="right-content min-h-[200px] w-full max-w-[650px]">
+          <div className="right-content min-h-[200px] w-full max-w-[750px]">
             <img src={ChooseUs} alt="About Us" />
             <br />
-            <div className="content h-full min-h-[400px] bg-white p-5 py-8 lg:min-h-[300px] xl:min-h-[400px]">
-              <h2 className="text-2xl font-semibold">Why Choose Us?</h2>
+            <div className="content min-h-[400px] bg-white p-5 py-8 lg:min-h-[300px] xl:min-h-[525px]">
+              <h2 className="text-2xl md:text-4xl font-semibold">Why Choose Us?</h2>
               <br />
-              <p>
+              <h2 className="text-xl">
                 From classic cuts to modern styles, we craft looks that suit
                 your personality and lifestyle.
-              </p>
+              </h2>
               <br />
               <div className="check-item flex gap-2.5 space-y-2.5 italic">
                 <MdCheckBox size={30} className="text-light-orange" />{" "}
