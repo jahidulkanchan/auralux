@@ -9,11 +9,26 @@ export default function TeamSection() {
   return (
     <>
       <section>
+        {/* Marquee with dynamic price repeated */}
+        <Marquee className="bg-light-orange mx-auto md:-rotate-1  mb-10 w-fit py-5 [--duration:50s] group-hover:text-white md:text-transparent">
+          {Array(5)
+            .fill("EXPERT GROOMING CONSULTATIONS")
+            .map((p, index) => (
+              <h2
+                className="px-3 text-2xl text-white sm:text-3xl md:text-5xl"
+                key={index}
+              >
+                {p}
+              </h2>
+            ))}
+        </Marquee>
         <div className="container overflow-hidden px-3 py-10 md:px-5 md:py-16">
           <div className="section-badge mx-0">MEET WITH TEAM</div>
           <h2 className="section-title mx-0 max-w-lg text-left">
             EXPERT GROOMING CONSULTATIONS
           </h2>
+          <br />
+
           <br />
           <div className="Team-members grid grid-cols-1 gap-5 sm:grid-cols-2 md:gap-10 lg:grid-cols-3">
             <MemberCard
@@ -31,17 +46,8 @@ export default function TeamSection() {
               jobTitle="COLORIST"
               MemberName="SANTIAGO G. DRAY"
             />
-          </div><br />
-           {/* Marquee with dynamic price repeated */}
-                <Marquee className="w-fit mx-auto md:text-transparent [--duration:50s] bg-light-orange py-5 mt-10 group-hover:text-white">
-                  {Array(5)
-                    .fill('EXPERT GROOMING CONSULTATIONS')
-                    .map((p, index) => (
-                      <h2 className="text-2xl sm:text-3xl md:text-5xl px-3 text-white" key={index}>
-                        {p}
-                      </h2>
-                    ))}
-                </Marquee>
+          </div>
+          <br />
         </div>
       </section>
     </>

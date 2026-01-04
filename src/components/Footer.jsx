@@ -20,7 +20,7 @@ export default function Footer() {
         <div className="copyright text-light-gray">
           &copy; {new Date().getFullYear()}{" "}
           <Link to="/">
-            <b>Auralux.</b>
+            <b>HairCraft</b>
           </Link>{" "}
           All rights reserved.
         </div>
