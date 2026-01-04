@@ -10,7 +10,7 @@ export default function FunFacts() {
   return (
     <>
       <section className="bg-white-bg min-h-screen">
-        <div className="container px-3 py-10 md:px-5">
+        <div className="container px-3 pt-10 pb-24 md:px-5">
           <div className="section-badge">Fun Facts</div>
           <h2 className="section-title">
             BEING BETTER INFORMED MEANS MAKING A GOOD AND BETTER DECISIONS
