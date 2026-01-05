@@ -3,20 +3,21 @@ import { HiWifi } from "react-icons/hi";
 import { Marquee } from "../ui/marquee";
 
 export default function ServiceCard({ 
+  icon,
   title = "Services Card", 
   price = "$10", 
   repeatCount = 3, 
   description = "Styles we craft looks that suit your personality and lifestyle."
 }) {
   return (
-    <div className="service-card group relative min-h-[300px] overflow-hidden bg-slate-50 p-4 lg:p-8 duration-500 hover:bg-black">
+    <div className="service-card flex flex-col justify-between group relative min-h-[300px] overflow-hidden bg-slate-50 p-4 lg:p-8 duration-500 hover:bg-black">
       {/* Title */}
       <h2 className="text-2xl font-bold uppercase group-hover:text-white lg:text-2xl">
         {title}
       </h2>
 
       {/* Static WiFi Icon */}
-      <HiWifi className="mx-auto my-5 w-fit text-black" size={100} />
+      <img src={icon} alt="icon" className="max-w-[80px] sm:max-w-[100px] py-8 mx-auto" />
 
       {/* Marquee with dynamic price repeated */}
       <Marquee className="md:absolute top-1/2 w-fit mx-auto -translate-y-1/2 md:text-transparent [--duration:10s] group-hover:text-white">
