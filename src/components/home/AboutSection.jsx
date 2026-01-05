@@ -46,7 +46,7 @@ export default function AboutSection() {
                   Personalized grooming consultations
                 </span>
               </div><br />
-              <div className="section-badge px-16 w-full text-center py-3 mx-auto">OUR EXPERTISE</div>
+              <div className="section-badge px-20 py-3 mx-auto">OUR EXPERTISE</div>
             </div>
           </div>
         </div>
