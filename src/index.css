@@ -8,7 +8,7 @@
 .color {
   background-color: #000000;
   background-color: #212121;
-  background-color: #bc4e00;
+  background-color: #C97133;
   background-color: #F4F1EE;
   background-color: #9f9f9f;
   background-color: #000000;
@@ -20,7 +20,7 @@
 @theme {
   --color-dark: #040200;
   --color-light-dark: #2a2a2a;
-  --color-light-orange: #bc4e00;
+  --color-light-orange: #C97133;
   --color-white-bg: #F4F1EE;
   --color-light-gray: #9f9f9f;
   --color-main: #000000;
@@ -32,7 +32,7 @@
     @apply mx-auto;
   }
   .section-badge{
-    @apply border-light-orange mx-auto w-fit border px-5 py-2 text-sm uppercase
+    @apply border-light-orange mx-auto w-fit border px-5 py-2 text-sm uppercase flex gap-2 items-center
   }
   .section-title{
     @apply mx-auto my-4 max-w-3xl text-center text-3xl font-semibold uppercase md:text-4xl xl:text-5xl

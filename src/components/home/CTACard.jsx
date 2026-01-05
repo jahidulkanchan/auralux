@@ -6,13 +6,10 @@ const CTACard = () => {
   return (
     <div className="mx-auto border border-gray-100 bg-white p-8 font-sans text-gray-800 shadow-lg sm:min-w-xl">
       {/* Small Badge Heading */}
-      <div className="mb-6 inline-flex items-center justify-center gap-2 border border-yellow-700 px-3 py-1">
-        <FiClock className="text-xs text-yellow-700" />
-        <span className="text-[10px] font-bold tracking-widest text-gray-900 uppercase">
-          Opening Hours
-        </span>
-      </div>
-
+      <div className="section-badge mx-0">
+         <FiClock className="text-light-orange" />
+        Opening Hours
+        </div><br />
       <h2 className="mb-10 text-4xl font-black tracking-tighter text-black uppercase">
         Opening Hours
       </h2>
@@ -31,7 +28,7 @@ const CTACard = () => {
 
         <div className="flex items-center justify-between border-b border-gray-100 pb-4">
           <span className="font-medium text-gray-500">Sunday</span>
-          <span className="font-bold text-yellow-700 italic">Holiday</span>
+          <span className="font-bold text-light-orange italic">Holiday</span>
         </div>
       </div>
 
@@ -65,7 +62,7 @@ const CTACard = () => {
       <div className="cta mx-auto flex w-full justify-center">
         <Link
           to="/contact"
-          className="border-light-orange bg-light-orange/80 hover:bg-light-orange border px-8 py-2.5 text-white transition-colors"
+          className="border-light-orange bg-light-orange hover:bg-light-orange border px-8 py-2.5 text-white transition-colors"
         >
           Book an Appointment
         </Link>
