@@ -3,6 +3,7 @@ import RootLayout from "../layout/RootLayout"
 import HomePage from "../pages/home/HomePage"
 import ErrorPage from "../pages/ErrorPage";
 import AboutPage from "@/pages/about/AboutPage";
+import ContactPage from "@/pages/contact/ContactPage";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
        {
         path: "/about",
         element: <AboutPage />,
+      },
+       {
+        path: "/contact",
+        element: <ContactPage />,
       },
        {
         path: "*",

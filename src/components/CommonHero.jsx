@@ -4,9 +4,9 @@ export default function CommonHero({mainBg}) {
   return (
     <>
      <section className="text-white-bg z-[999] flex min-h-[550px] justify-center bg-black text-center">
-        <div className="relative container">
-          <div className="heading mt-[100px]">
-            <h1 className="text-6xl font-bold">ABOUT SALON</h1>
+        <div className="relative container px-2 md:px-5">
+          <div className="heading mt-[60px] md:mt-[100px]">
+            <h1 className="section-title text-4xl xl:text-6xl">ABOUT SALON</h1>
             <p className="text-light-gray mx-auto mt-2.5 max-w-lg">
               Whether you're here for a fresh fade or a full makeover, we’ve got
               you covered, our team of expert stylists.
