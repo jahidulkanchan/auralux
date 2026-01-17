@@ -7,7 +7,7 @@ import BadgeImage from "../../assets/images/hero-small.webp";
 export default function HeroSection() {
   return (
     <>
-      <section className="bg-dark relative">
+      <section className="bg-dark relative pb-10 md:pb-0">
         <video
           className="absolute top-0 left-0 z-[0] h-full w-full object-cover"
           muted
