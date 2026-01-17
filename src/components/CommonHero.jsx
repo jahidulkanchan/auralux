@@ -3,7 +3,7 @@ import HeroSubThumbnail from "../assets/images/hero-sub.webp";
 export default function CommonHero({mainBg}) {
   return (
     <>
-     <section className="text-white-bg z-[999] flex min-h-[550px] mb-[150px] justify-center bg-black text-center">
+     <section className="text-white-bg z-[999] flex min-h-[550px] mb-[50px] md:mb-[150px] justify-center bg-black text-center">
         <div className="relative container px-2 md:px-5">
           <div className="heading mt-[60px] md:mt-[100px]">
             <h1 className="section-title text-4xl xl:text-6xl">ABOUT SALON</h1>

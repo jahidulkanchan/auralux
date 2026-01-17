@@ -4,7 +4,7 @@ import { FiClock } from "react-icons/fi";
 
 const ContactMapSection = () => {
   return (
-    <section className="mt-[150px] mb-20 w-full">
+    <section className="mt-[250px]">
       <div className="container mx-auto px-5">
         <div className="content-wrapper flex flex-col overflow-hidden rounded-sm border border-gray-100 shadow-2xl md:flex-row">
           {/* Left Content - Opening Hours */}
