@@ -17,7 +17,7 @@ export default function Navbar() {
     { name: 'Home', linkURL: '/' },
     { name: 'About', linkURL: '/about' },
     { name: 'Services', linkURL: '/services' },
-    { name: 'Portfolio', linkURL: '/portfolio' },
+    { name: 'Gallery', linkURL: '/gallery' },
     { name: 'Contact', linkURL: '/contact' },
   ];
 

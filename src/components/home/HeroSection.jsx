@@ -16,7 +16,7 @@ export default function HeroSection() {
           src={LightEffect}
         ></video>
 
-        <div className="z-10 container mx-auto flex min-h-[650px] flex-col-reverse items-center justify-between gap-5 px-3 py-10 text-white md:py-20 lg:flex-row">
+        <div className="z-10 container mx-auto flex min-h-[650px] flex-col-reverse items-center justify-between gap-5 px-3 py-10 text-white lg:flex-row">
           <div className="left-content z-10 max-w-3xl space-y-4 text-center lg:text-left">
             <h2 className="mt-5 text-center text-6xl font-semibold uppercase md:text-7xl lg:text-left lg:text-8xl 2xl:text-9xl">
               Style <br />

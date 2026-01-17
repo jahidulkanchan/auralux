@@ -5,6 +5,7 @@ import ErrorPage from "../pages/ErrorPage";
 import AboutPage from "@/pages/about/AboutPage";
 import ContactPage from "@/pages/contact/ContactPage";
 import ServicePage from "@/pages/services/ServicePage";
+import GalleryPage from "@/pages/gallery/GalleryPage";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "/services",
         element: <ServicePage />,
+      },
+      {
+        path: "/gallery",
+        element: <GalleryPage />,
       },
        {
         path: "/contact",

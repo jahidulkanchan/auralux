@@ -8,7 +8,7 @@ import { Marquee } from "../ui/marquee";
 export default function TeamSection() {
   return (
     <>
-      <section className="overflow-hidden">
+      <section className="overflow-hidden pb-10">
         {/* Marquee with dynamic price repeated */}
         <Marquee className="bg-light-orange mx-auto md:-rotate-1 mt-26 mb-16 w-fit py-5 [--duration:50s] group-hover:text-white md:text-transparent">
           {Array(5)

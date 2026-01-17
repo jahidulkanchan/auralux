@@ -1,15 +1,14 @@
 import React from 'react'
 import HeroSubThumbnail from "../assets/images/hero-sub.webp";
-export default function CommonHero({mainBg}) {
+export default function CommonHero({mainBg,title,description}) {
   return (
     <>
      <section className="text-white-bg z-[999] flex min-h-[550px] mb-[50px] md:mb-[150px] justify-center bg-black text-center">
         <div className="relative container px-2 md:px-5">
           <div className="heading mt-[60px] md:mt-[100px]">
-            <h1 className="section-title text-4xl xl:text-6xl">ABOUT SALON</h1>
+            <h1 className="section-title text-4xl xl:text-6xl">{title}</h1>
             <p className="text-light-gray mx-auto mt-2.5 max-w-lg">
-              Whether you're here for a fresh fade or a full makeover, we’ve got
-              you covered, our team of expert stylists.
+              {description}
             </p>
           </div>
           <div className="hero-thumbnail top-2/5 mt-16 flex flex-col gap-5 lg:gap-10 lg:absolute lg:flex-row">

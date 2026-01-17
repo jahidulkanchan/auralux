@@ -10,7 +10,7 @@ import CTAVideo from "../assets/videos/cta-video.mp4";
 
 const AppointmentSection = () => {
   return (
-    <section className="bg-[#f5f2f0] py-12">
+    <section className="bg-[#f5f2f0] py-10 md:py-20">
       <div className="container mx-auto px-2 md:px-5">
         <div className="wrapper mx-auto flex flex-col overflow-hidden bg-white shadow-xl lg:flex-row">
           {/* Left Content - Image */}

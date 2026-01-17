@@ -8,7 +8,11 @@ export default function ContactPage() {
   return (
     <>
       <div className="wrapper bg-white-bg pb-[50px]">
-        <CommonHero mainBg={HeroThumbnail} />
+        <CommonHero
+          mainBg={HeroThumbnail}
+          title="GET IN TOUCH"
+          description="We specialize in making you look great—through expert cuts, color mastery, and honest care."
+        />
         <ContactMapSection />
         <AppointmentSection />
       </div>

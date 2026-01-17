@@ -7,9 +7,11 @@ import FeatureSection from "@/components/about/FeatureSection";
 export default function AboutPage() {
   return (
     <>
-      <CommonHero mainBg={HeroThumbnail} />
-      <TeamSection/>
-      <FeatureSection/>
+      <div className="wrapper bg-white-bg">
+        <CommonHero mainBg={HeroThumbnail} title="ABOUT SALON" description="Whether you're here for a fresh fade or a full makeover, we’ve got you covered, our team of expert stylists." />
+        <TeamSection />
+        <FeatureSection />
+      </div>
     </>
   );
 }
