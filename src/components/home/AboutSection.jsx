@@ -14,7 +14,7 @@ export default function AboutSection() {
               Your Trusted Salon & Barber shop.
             </h2>
             <br />
-            <img src={AboutUs} alt="About Us" />
+            <img className="h-fit" src={AboutUs} alt="About Us" />
             <br />
           </div>
           <div className="right-content min-h-[200px] w-full max-w-[750px]">
