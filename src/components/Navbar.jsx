@@ -83,7 +83,7 @@ export default function Navbar() {
           </ul>
 
           <div className="auth-content lg:block hidden">
-            <div className="login-btn bg-white text-dark px-5 rounded py-1.5 md:py-2 border border-transparent hover:border-light-orange duration-150">
+            <div className="login-btn bg-white cursor-pointer text-dark px-5 rounded py-1.5 md:py-2 border border-transparent hover:border-light-orange duration-150">
               Login
             </div>
           </div>
